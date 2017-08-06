@@ -13,7 +13,7 @@ public class TopColor {
             return result;
         }
         for (int i = 0; i < image.length; i++) {
-            for (int j = 0; j < image[0].length; j++) {
+            for (int j = 0; j < image[i].length; j++) {
                 map.put(image[i][j], map.getOrDefault(image[i][j], 0) + 1);
             }
         }
