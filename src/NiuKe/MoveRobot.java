@@ -50,6 +50,7 @@ public class MoveRobot {
             col /= 10;
         }
         return sum <= threshold;
+        
     }
 
     public class Pair{
