@@ -30,6 +30,8 @@ public class Main{
             res = res + " " + result.get(i);
         }
         System.out.println(res.trim());
+
+
     }
 
 }
